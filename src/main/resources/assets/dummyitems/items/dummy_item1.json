@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "dummyitems:item/dummy_item1"
+  }
+}
