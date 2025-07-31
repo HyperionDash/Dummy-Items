@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "dummyitems:item/dummy_item1"
+    "model": "dummyitems:item/dummyitem"
   }
 }
