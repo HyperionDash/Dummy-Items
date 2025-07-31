@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/project/HzGKYCev",
-		"sources": "https://github.com/HyperionDash/Dummy_Items"
+		"sources": "https://github.com/HyperionDash/Dummy_Items",
+		"issues": "https://github.com/HyperionDash/Dummy-Items/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/dummyitems/icon.png",
@@ -29,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.6",
+		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
