@@ -18,19 +18,13 @@
 	"entrypoints": {
 		"main": [
 			"net.hyper.dummyitems.DummyItems"
-		],
-		"fabric-datagen": [
-			"net.hyper.dummyitems.DummyItemsDataGenerator"
-		],
-		"client": [
-			"net.hyper.dummyitems.DummyItemsClient"
 		]
 	},
 	"mixins": [
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.4",
+		"minecraft": "~1.21.2",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
