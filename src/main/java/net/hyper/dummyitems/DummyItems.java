@@ -1,13 +1,12 @@
 package net.hyper.dummyitems;
 
 import net.fabricmc.api.ModInitializer;
-
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.util.Identifier;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -1017,9 +1016,9 @@ public class DummyItems implements ModInitializer {
 	public static final Item DUMMYITEM998 = registerItem("dummyitem998", Item::new);
 	public static final Item DUMMYITEM999 = registerItem("dummyitem999", Item::new);
 
-	private static Item registerItem(String name, Function<Item.Settings, Item> function) {
-		return Registry.register(Registries.ITEM, Identifier.of(DummyItems.MOD_ID, name),
-				function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DummyItems.MOD_ID, "dummyitem")))));
+	private static Item registerItem(String name, Function<Item.Properties, Item> function) {
+		return Registry.register(BuiltInRegistries.ITEM, ResourceLocation.fromNamespaceAndPath(DummyItems.MOD_ID, name),
+				function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(DummyItems.MOD_ID, "dummyitem")))));
 	}
 
 	@Override
