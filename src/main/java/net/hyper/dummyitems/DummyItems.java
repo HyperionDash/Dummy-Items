@@ -1023,6 +1023,6 @@ public class DummyItems implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		DummyItems.LOGGER.info("Registering ❤'s");
+		LOGGER.info("Registering ❤'s");
 	}
 }
