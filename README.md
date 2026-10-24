@@ -17,4 +17,4 @@
 <p align="center">A: of course, you can do this with any of my projects aslong as the download stays hosted within the modrinth ecosystem :3</p>
 
 **<p align="center">Q: Will this mod be made available for other versions/loaders<p>**
-<p align="center">A: there are no plans to support versions under 1.21.2, however future versions will be supported</p>
+<p align="center">A: Dummy Items will be updated with every new version of minecraft, consider versions other than fabric latest dicontinued</p>
