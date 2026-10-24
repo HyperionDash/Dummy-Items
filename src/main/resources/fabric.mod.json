@@ -3,10 +3,9 @@
 	"id": "dummyitems",
 	"version": "${version}",
 	"name": "Dummy Items",
-	"description": "a small mod that adds dummy items for map makers and datapack developers.",
+	"description": "A small mod that adds Dummy Items for map makers and datapack developers.",
 	"authors": [
-		"HyperionDash",
-		"Wjph2k10"
+		"HyperionDash"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/project/HzGKYCev",
@@ -22,7 +21,6 @@
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.16.14",
 		"minecraft": ">=1.21.2",
 		"java": ">=21",
 		"fabric-api": "*"
