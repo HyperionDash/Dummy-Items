@@ -1,3 +1,6 @@
 {
-  "item.dummyitems.dummyitem": "Dummy Item"
+  "item.dummyitems.dummyitem": "Dummy Item",
+  "dummyitems.midnightconfig.title": "Dummy Items",
+  "dummyitems.midnightconfig.dummyItemsCount": "Dummy Items To Register",
+  "dummyitems.midnightconfig.dummyItemsCount.tooltip": "§cHigh values will cause lag when using /give and load time increases."
 }
